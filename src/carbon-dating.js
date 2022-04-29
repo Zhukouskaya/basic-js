@@ -17,7 +17,7 @@ const HALF_LIFE_PERIOD = 5730;
  * dateSample('WOOT!') => false
  *
  */
-function dateSample(/* sampleActivity */) {
+function dateSample(sampleActivity) {
   throw new NotImplementedError('Not implemented');
   // remove line with error and write your code here
 }
@@ -25,3 +25,29 @@ function dateSample(/* sampleActivity */) {
 module.exports = {
   dateSample
 };
+
+
+// Carbon dating - 8.43373494
+// Common character count - 1.204819277
+// Delete digit - 1.204819277
+// DNS stats - 1.204819277
+// Encode line - 1.204819277
+// File names - 1.204819277
+// Get email domain - 1.204819277
+// Hanoi tower - 2.409638554
+// MAC address - 1.204819277
+// Matrix elements sum - 1.204819277
+// Minesweeper - 1.204819277
+// Recursive depth - 4.819277108
+// Make chain! - 6.024096386
+// Sort by height - 1.204819277
+// Sum digits - 1.204819277
+// Transform array - 9.638554217
+// Vigenere cipher - 9.638554217
+// What season - 10.84337349
+
+
+// Done 
+// Count cats! - 10.84337349
+// Dream team - 10.84337349
+// Extended repeater - 13.25301205

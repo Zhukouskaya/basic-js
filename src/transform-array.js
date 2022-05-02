@@ -23,8 +23,7 @@ function transform(arr) {
   const doubleNext = "--double-next";
   const doublePrevious = "--double-prev";
 
-  return arr
-    .reduce((result, x, i, arr) => {
+  return arr.reduce((result, x, i, arr) => {
       switch (x) {
         case discardNext:
           if (i != arr.length - 1) {
@@ -57,8 +56,7 @@ function transform(arr) {
       }
 
       return result;
-    }, [])
-    .filter((x) => !!x);
+    }, []).filter(el => !!el);
   // remove line with error and write your code here
 }
 

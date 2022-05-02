@@ -44,10 +44,14 @@ module.exports = {
 // Sum digits - 1.204819277
 // Transform array - 9.638554217
 // Vigenere cipher - 9.638554217
-// What season - 10.84337349
+
 
 
 // Done 
 // Count cats! - 10.84337349
 // Dream team - 10.84337349
 // Extended repeater - 13.25301205
+
+
+// part 
+// What season - 10.84337349 (4)

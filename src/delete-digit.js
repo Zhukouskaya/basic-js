@@ -11,8 +11,20 @@ const { NotImplementedError } = require('../extensions/index.js');
  * For n = 152, the output should be 52
  *
  */
-function deleteDigit(/* n */) {
-  throw new NotImplementedError('Not implemented');
+  function getSum(numbers, index) {
+  return +numbers
+    .reduce((sum, x, i) => i === index ? sum : sum + x, '');
+}
+
+function deleteDigit(n) {
+  const numbers = n.toString().split('');
+const results = [];
+
+for (let i = 0; i < numbers.length; i++) {
+  results.push(getSum(numbers, i));
+}
+
+return Math.max(...results);
   // remove line with error and write your code here
 }
 

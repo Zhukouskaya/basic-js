@@ -30,6 +30,7 @@ function getSeason(date) {
     throw new Error ("Invalid date!")
   }
   // remove line with error and write your code here
+  
 }
 
 module.exports = {
